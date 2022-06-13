@@ -33,6 +33,7 @@ public class RemoteDriver  {
     private DesiredCapabilities getCapabilities() {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
+       // capabilities.setBrowserName("firefox");
         capabilities.setVersion("98.0");
         capabilities.setCapability("acceptInsecureCerts", true);
         capabilities.setCapability("enableVNC", true);
